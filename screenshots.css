@@ -1,0 +1,39 @@
+figure
+    {                    
+        float: left;
+        height: 375px;                    
+        padding: 0px 5px 0px 12px;
+        margin: 0px 11px 0px 0px;
+        border-left: 1px solid rgb(208, 212, 216);
+    }
+            
+img
+    {
+        width: 250px;
+        height: 250px;                            
+    }
+          
+.date
+    {   
+        margin-top: 5px;
+        width: 250px;
+        color: rgb(145, 148, 151);
+        font-size: 12;
+    }
+figcaption
+    {   
+        width: 250px;
+        font-size: 20;
+        padding-top: 7px;  
+    }
+ul
+    {                                  
+        padding: 0px 2px 0px 0px;
+        list-style: none;
+    } 
+a
+    {
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
