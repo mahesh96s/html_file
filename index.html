@@ -1,0 +1,683 @@
+<html>
+
+<head>
+    <title>Save life</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script>               
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("scrollbutton").style.display = "block";
+            } else {
+                document.getElementById("scrollbutton").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <span>
+            <span class="call_img1">
+                <i class="fa fa-phone fa-1x" id="phone"></i>
+                <span>+123-456-7890</span>
+                <span>
+                    <i class="fa fa-envelope fa-1x" id="envelope"></i>
+                </span>
+                <span>info@gmail.com</span>
+            </span>
+            <div class="call_img2">
+                <a href="#" class="icon_link">
+                    <i class="fab fa-facebook-f fa-1x" id="facebook"></i>
+                </a>
+                <a href="#" class="icon_link">
+                    <i class="fab fa-twitter fa-1x" id="twitter"></i>
+                </a>
+                <a href="#" class="icon_link">
+                    <i class="fab fa-google-plus-g fa-1x" id="google"></i>
+                </a>
+                <a href="#" class="icon_link">
+                    <i class="fab fa-linkedin-in fa-1x" id="linkedin"></i>
+                </a>
+            </div>
+        </span>
+    </header>
+    <nav>
+        <h2 class="company_name">COMPANY NAME</h2>
+        <ul class="first_list">
+            <li>
+                <a href="file:///home/mahesh/Downloads/html/index.html?full+name=mahesh&username=masmajs&Remember+me=Remember" class="menu_link">
+                    <figure>
+                        <div>
+                            <i class="fa fa-home fa-1x" id="menu_icon"></i>
+                        </div>
+                        <figcaption>Home</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <figure class="menu_img">
+                    <div>
+                        <i class="fa fa-file-alt fa-1x" id="menu_icon"></i>
+                    </div>
+                    <div class="dropdown">
+                        <span class="page">Pages</span>
+                        <div class="dropdown-content">
+                            <a class="dropdown-item" href="#">About US</a><br>
+                            <a class="dropdown-item" href="#">Volunteer Details</a><br>
+                            <a class="dropdown-item" href="#">Our Gallery</a><br>
+                            <a class="dropdown-item" href="#">Error 404</a><br>
+                            <a class="dropdown-item" href="#">Coming Soon</a>
+                        </div>
+                    </div>
+                </figure>
+            </li>
+            <li>
+                <a href="#" class="menu_link">
+                    <figure>
+                        <div>
+                            <i class="fa fa-cog fa-1x" id="menu_icon"></i>
+                        </div>
+                        <figcaption>Services</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="menu_link">
+                    <figure>
+                        <div>
+                            <i class="fa fa-calendar-alt fa-1x" id="menu_icon"></i>
+                        </div>
+                        <figcaption>Events</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="menu_link">
+                    <figure>
+                        <div>
+                            <i class="fa fa-newspaper fa-1x" id="menu_icon"></i>
+                        </div>
+                        <figcaption>Blog</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="menu_link">
+                    <figure>
+                        <div>
+                            <i class="far fa-life-ring fa-1x" id="menu_icon"></i>
+                        </div>
+                        <figcaption>FAQs</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="menu_link">
+                    <figure>
+                        <div class="contacts">
+                            <i class="fa fa-phone fa-1x" id="menu_icon"></i>
+                        </div>
+                        <figcaption>Contact</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="menu_link">
+                    <span class="donate_button">DONATE NOW</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="second_block">
+        <div>
+            <img src="/home/mahesh/Downloads/project/html/images/slider.jpg" class="cover_img">
+            <div class="fieldset">
+                <div class="cover_heading"> Save The Life </div>
+                <p class="cover_para">
+                    Lorem ipsum dolor sit amet,consectetur adipiscing elit.Sed Do eiusmod tempor incididunt ut labore et dolore magna aliqu
+                </p>
+                <a href="#" class="read_more">
+                    <p class="read_button">READ MORE</p>
+                </a>
+            </div>
+            <div>
+                <hr class="line1">
+                <hr class="line2">
+                <hr class="line3">
+                <hr class="line4">
+            </div>
+        </div>
+        <div>
+            <div>
+                <i class="fas fa-angle-left fa-2x" id=left-arrow></i>
+            </div>
+            <div>
+                <i class="fas fa-angle-right fa-2x" id=right-arrow></i>
+            </div>
+        </div>
+        <div class="login">
+            <form class="form_register">
+                <div id="field">
+                    <label for="name" id="label">Name</label>
+                    <input type="text" name="full name" class="name" placeholder="Full name" required><br>
+                </div>
+                <div id="field">
+                    <label for="username" id="label">Username or email</label>
+                    <input type="text" name="username" class="name" placeholder="info@gmail.com" required><br>
+                </div>
+                <input type="checkbox" name="Remember me" value="Remember" class="check"><span class="Remember">Remember
+                    me
+                </span><br>
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div>
+        <h2 class="heading1"><u>LEAVE</u> US A MESSAGE</h2><br>
+        <p class="paragraph">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Sed eget lorem magna.Fusce eu urna a
+            sapien fringilla viverra.Morbi ut est ac diam saittis auctor.suspendisse ut eros et est elementum sollicitudin.Lacus
+            vel viverra molestie...
+        </p>
+        <a href="file:///home/mahesh/Downloads/html/index.html?full+name=mahesh&username=masmajs&Remember+me=Remember" class="readme_link">Readme>></a>
+
+    </div>
+    <div>
+        <div class="services_links">
+            <div class="block1">
+                <a href="file:///home/mahesh/Downloads/html/index.html?full+name=mahesh&username=masmajs&Remember+me=Remember" class="block_link">
+                    <div class="definition">
+                        <div class="link_img">
+                            <i class="fa fa-wrench fa-1x" id="block_icon"></i>
+                        </div>
+                        <div class="block_elements">
+                            <h4><u>Lnteractive</u> Elements</h4>
+                            <p class="block_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm tempor
+                                incididunt
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="file:///home/mahesh/Downloads/html/index.html?full+name=mahesh&username=masmajs&Remember+me=Remember" class="block_link">
+                    <div class="definition">
+                        <div class="link_img">
+                            <i class="fa fa-heartbeat fa-1x" id="block_icon"></i>
+                        </div>
+                        <div class="block_elements">
+                            <h4><u>Donate</u></h4>
+                            <p class="block_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm tempor
+                                incididunt
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="file:///home/mahesh/Downloads/html/index.html?full+name=mahesh&username=masmajs&Remember+me=Remember" class="block_link">
+                    <div class="definition">
+                        <div class="link_img">
+                            <i class="fas fa-dollar-sign fa-1x" id="block_icon1"></i>
+                        </div>
+                        <div class="block_elements">
+                            <h4><u>Donate</u></h4>
+                            <p class="block_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm tempor
+                                incididunt
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="block1">
+                <a href="file:///home/mahesh/Downloads/html/index.html?full+name=mahesh&username=masmajs&Remember+me=Remember" class="block_link">
+                    <div class="definition">
+                        <div class="link_img">
+                            <i class="fa fa-window-maximize fa-1x" id="block_icon"></i>
+                        </div>
+                        <div class="block_elements">
+                            <h4><u>Contribu</u>te</h4>
+                            <p class="block_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm tempor
+                                incididunt
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="file:///home/mahesh/Downloads/html/index.html?full+name=mahesh&username=masmajs&Remember+me=Remember" class="block_link">
+                    <div class="definition">
+                        <div class="link_img">
+                            <i class="fa fa-user-plus fa-1x" id="block_icon"></i>
+                        </div>
+                        <div class="block_elements">
+                            <h4><u>Participa</u>te</h4>
+                            <p class="block_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm tempor
+                                incididunt
+                            </p>
+                        </div>
+
+                    </div>
+                    <a href="file:///home/mahesh/Downloads/html/index.html?full+name=mahesh&username=masmajs&Remember+me=Remember" class="block_link">
+                        <div class="definition">
+                            <div class="link_img">
+                                <i class="fa fa-wrench fa-1x" id="block_icon"></i>
+                            </div>
+                            <div class="block_elements">
+                                <h4><u>Lnteractive</u> Elements</h4>
+                                <p class="block_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusm
+                                    tempor incididunt</p>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+        </div>
+    </div>
+    <div class="block2">
+        <div class="aboutus">
+            <h3>ABOUT US</h3>
+            <div>
+                <i class="fa fa-tint fa-1x" id="drop"></i>
+            </div>
+            <hr class="hr_line">
+            <div class="aboutus_para">Charixy is the charity,Non-profit government organisation,fundraising,Our activities
+                help entrepreneurs get the target
+            </div>
+        </div>
+        <div>
+            <div class="donate">
+                <h6><u>DONATI</u>ON</h6>
+                <p class="block_para1">Vision is our mission.Restoring vision to people in developing nations is our cause.we
+                    are a nonpr local physicians
+                </p>
+                <h6><u>FUNDRI</u>SE</h6>
+                <p class="block_para1">Vision is our mission.Restoring vision to people in developing nations is our cause.we
+                    are a nonpr local physicians
+                </p>
+            </div>
+            <div>
+                <img src="/home/mahesh/Downloads/project/html/images/about.jpg" class="about_img">
+            </div>
+            <div class="scholarship">
+                <h6><u>SCHOLAR</u>SHIP</h6>
+                <p class="block_para1">Vision is our mission.Restoring vision to people in developing nations is our cause.we
+                    are a nonpr local physicians
+                </p>
+                <h6><u>VOLUNT</u>EER</h6>
+                <p class="block_para1">Vision is our mission.Restoring vision to people in developing nations is our cause.we
+                    are a nonpr local physicians
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="ourcause">
+            <h3>OUR CAUSES</h3><br>
+            <div>
+                <i class="fa fa-tint fa-1x" id="drop1"></i>
+            </div>
+            <hr class="hr_line1">
+            <div class="aboutus_para1">Charixy is the charity,Non-profit government organisation,fundraising,Our activities
+                help entrepreneurs get the target
+            </div>
+
+        </div>
+        <div class="main_cause">
+            <div class="cause_block">
+                <img src="/home/mahesh/Downloads/project/html/images/causes-1.jpg">
+                <div class="cause_content">
+                    <h4><u>Feed For</u> Hungry Child</h4>
+                    <p class="cause_para">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed eget lorem magna.Fusce eu urna a sapin fringilla viverra.
+                    </p>
+                </div>
+                <div class="pointer1">40%</div>
+                <div class="triangle-down1"></div>
+                <div class="donate_slide">
+                    <div class="percent1"></div>
+                </div>
+                <div id=price1>
+                    <h4>Donated</h4>
+                    <p class="rate">$100.00</p>
+                </div>
+                <div id=price2>
+                    <h4>Goal</h4>
+                    <p class="rate">$2500.00</p>
+                </div>
+            </div>
+            <div class="cause_block">
+                <img src="/home/mahesh/Downloads/project/html/images/causes-2.jpg">
+                <div class="cause_content">
+                    <h4><u>Feed For</u> Hungry Child</h4>
+                    <p class="cause_para">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed eget lorem magna.Fusce eu urna a sapin fringilla viverra.
+                    </p>
+
+                </div>
+                <div class="pointer2">60%</div>
+                <div class="triangle-down2"></div>
+                <div class="donate_slide">
+                    <div class="percent2"></div>
+                </div>
+                <div id=price1>
+                    <h4>Donated</h4>
+                    <p class="rate">$100.00</p>
+                </div>
+                <div id=price2>
+                    <h4>Goal</h4>
+                    <p class="rate">$2500.00</p>
+                </div>
+            </div>
+            <div class="cause_block">
+                <img src="/home/mahesh/Downloads/project/html/images/causes-3.jpg">
+                <div class="cause_content">
+                    <h4><u>Feed For</u> Hungry Child</h4>
+                    <p class="cause_para">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed eget lorem magna.Fusce eu urna a sapin fringilla viverra.
+                    </p>
+                </div>
+                <div class="pointer3">80%</div>
+                <div class="triangle-down3"></div>
+                <div class="donate_slide">
+                    <div class="percent3"></div>
+                </div>
+                <div id=price1>
+                    <h4>Donated</h4>
+                    <p class="rate">$100.00</p>
+                </div>
+                <div id=price2>
+                    <h4>Goal</h4>
+                    <p class="rate">$2500.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block3">
+        <div>
+            <img src="/home/mahesh/Downloads/project/html/images/video-img.jpg" class="video">
+        </div>
+        <div>
+            <a href="#"><img src="/home/mahesh/Downloads/project/html/images/play-btn.png" class="videoplay"></a>
+        </div>
+        <div class="block3_text">
+            <p class="heart"><u>HEAR</u>T BROKEN STORY</p>
+            <p class="heart_para">
+                Even the all-powerfull Pointing has no control about the blind texts it is an almost unorthographic life One day however
+                a small line of blind text by the name of Loem Ipsum decided to leave for the far World of Grammar.
+            </p>
+            <p class="heart_para">
+                Coast of Semantics,large language ocean.A small river named Duden flows by their place and supplies it with the necessary
+                regelialia. it is a paradisematic country,in which roasted.unorthographic life One day however a small line
+                of blind text by the all-powerfull.
+            </p>
+            <p>
+                <a href="file:///home/mahesh/Downloads/html/index.html?full+name=mahesh&username=masmajs&Remember+me=Remember" class="menu_link1">Readme
+                    >>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div>
+        <div class="ourgallery">
+            <h3>OUR GALLERY</h3><br>
+            <div>
+                <i class="fa fa-tint fa-1x" id="drop2"></i>
+            </div>
+            <hr class="hr_line2">
+            <div class="aboutus_para">Charixy is the charity,Non-profit government organisation,fundraising,Our activities
+                help entrepreneurs get the target
+            </div>
+        </div>
+        <div>
+            <a href="#" class="gallery_link">
+                <img src="/home/mahesh/Downloads/project/html/images/gallery-1.jpg" class="gallery1">
+                <div class="middle1">
+                    <div class="image_icon"><i class="far fa-image fa-2x"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="gallery_link">
+                <img src="/home/mahesh/Downloads/project/html/images/gallery-2.jpg" class="gallery2">
+                <div class="middle2">
+                    <div class="image_icon"><i class="far fa-image fa-2x"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="gallery_link">
+                <img src="/home/mahesh/Downloads/project/html/images/gallery-3.jpg" class="gallery3">
+                <div class="middle3">
+                    <div class="image_icon"><i class="far fa-image fa-2x"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="gallery_link">
+                <img src="/home/mahesh/Downloads/project/html/images/gallery-4.jpg" class="gallery4">
+                <div class="middle4">
+                    <div class="image_icon"><i class="far fa-image fa-2x"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="gallery_link">
+                <img src="/home/mahesh/Downloads/project/html/images/gallery-5.jpg" class="gallery5">
+                <div class="middle5">
+                    <div class="image_icon"><i class="far fa-image fa-2x"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="gallery_link">
+                <img src="/home/mahesh/Downloads/project/html/images/gallery-6.jpg" class="gallery6">
+                <div class="middle6">
+                    <div class="image_icon"><i class="far fa-image fa-2x"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="volunteer">
+        <div class="ourvolunteer">
+            <h3>OUR VOLUNTEER</h3>
+            <div>
+                <i class="fa fa-tint fa-1x" id="drop3"></i>
+            </div>
+            <hr class="hr_line3">
+            <div class="aboutus_para">Charixy is the charity,Non-profit government organisation,fundraising,Our activities
+                help entrepreneurs get the target
+            </div>
+        </div>
+        <div class="main_vol">
+            <div class="volunteer_block">
+                <img src="/home/mahesh/Downloads/project/html/images/volunteer-1.jpg" class="vol_img">
+                <p class="vol_name">Sara Lian</p>
+                <p class="vol_name1">Volunteer</p>
+                <hr class="hr_volunteer">
+                <span class="vol_icon">
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-facebook-f fa-1x" id="facebook1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-twitter fa-1x" id="twitter1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-google-plus-g" id="google1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-linkedin-in fa-1x" id="linkedin1"></i>
+                    </a>
+                </span>
+            </div>
+            <div class="volunteer_block">
+                <img src="/home/mahesh/Downloads/project/html/images/volunteer-2.jpg" class="vol_img">
+                <p class="vol_name">Jack Doe</p>
+                <p class="vol_name1">Volunteer</p>
+                <hr class="hr_volunteer">
+                <span class="vol_icon">
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-facebook-f fa-1x" id="facebook1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-twitter fa-1x" id="twitter1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-google-plus-g" id="google1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-linkedin-in fa-1x" id="linkedin1"></i>
+                    </a>
+                </span>
+            </div>
+            <div class="volunteer_block">
+                <img src="/home/mahesh/Downloads/project/html/images/volunteer-3.jpg" class="vol_img">
+                <p class="vol_name">Flora View</p>
+                <p class="vol_name1">Volunteer</p>
+                <hr class="hr_volunteer">
+                <span class="vol_icon">
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-facebook-f fa-1x" id="facebook1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-twitter fa-1x" id="twitter1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-google-plus-g" id="google1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-linkedin-in fa-1x" id="linkedin1"></i>
+                    </a>
+                </span>
+            </div>
+            <div class="volunteer_block">
+                <img src="/home/mahesh/Downloads/project/html/images/volunteer-4.jpg" class="vol_img">
+                <p class="vol_name">Johnny Newmen</p>
+                <p class="vol_name1">Volunteer</p>
+                <hr class="hr_volunteer">
+                <span class="vol_icon">
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-facebook-f fa-1x" id="facebook1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-twitter fa-1x" id="twitter1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-google-plus-g" id="google1"></i>
+                    </a>
+                    <a href="#" class="icon_link1">
+                        <i class="fab fa-linkedin-in fa-1x" id="linkedin1"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_block1">
+            <div>
+                <ol class="footer_list1">
+                    <h5><u>ABOU</u>T US</h5>
+                    <a href="#" class="footer_link1">
+                        <li>About us</li>
+                    </a>
+                    <hr class="footer_line">
+                    <a href="#" class="footer_link1">
+                        <li>Our Team</li>
+                    </a>
+                    <hr class="footer_line">
+                    <a href="#" class="footer_link1">
+                        <li>Volunteer Engagement</li>
+                    </a>
+                    <hr class="footer_line">
+                    <a href="#" class="footer_link1">
+                        <li>Communication</li>
+                    </a>
+                    <hr class="footer_line">
+                    <a href="#" class="footer_link1">
+                        <li>Services</li>
+                    </a>
+                    <hr class="footer_line">
+                </ol>
+            </div>
+            <div>
+                <ol class="footer_list2">
+                    <h5><u>DISCOV</u>ER</h5>
+                    <a href="#" class="footer_link1">
+                        <li>Mission</li>
+                    </a>
+                    <hr class="footer_line">
+                    <a href="#" class="footer_link1">
+                        <li>where We Are Headed</li>
+                    </a>
+                    <hr class="footer_line">
+                    <a href="#" class="footer_link1">
+                        <li>History</li>
+                    </a>
+                    <hr class="footer_line">
+                    <a href="#" class="footer_link1">
+                        <li>Board And Staff</li>
+                    </a>
+                    <hr class="footer_line">
+                </ol>
+            </div>
+            <div>
+                <ol class="footer_list3">
+                    <h5><u>QUICK L</u>INK</h5>
+                    <a href="#" class="footer_link1">
+                        <li>Earth Hour</li>
+                    </a>
+                    <hr class="footer_line">
+                    <a href="#" class="footer_link1">
+                        <li>Our Team</li>
+                    </a>
+                    <hr class="footer_line">
+                    <a href="#" class="footer_link1">
+                        <li>Equality</li>
+                    </a>
+                    <hr class="footer_line">
+                    <a href="#" class="footer_link1">
+                        <li>Women</li>
+                    </a>
+                    <hr class="footer_line">
+                </ol>
+            </div>
+            <div>
+                <ol class="footer_list4">
+                    <h5><u>TAGS</u></h5>
+                    <li class="footer_sublist">
+                        <a href="#" class="footer_link2">Faith</a>
+                    </li>
+                    <li class="footer_sublist">
+                        <a href="#" class="footer_link2">Forgiveness</a>
+                    </li>
+                    <li class="footer_sublist">
+                        <a href="#" class="footer_link2">Donation</a>
+                    </li>
+                    <li class="footer_sublist">
+                        <a href="#" class="footer_link2"> Animals</a>
+                    </li>
+                    <li class="footer_sublist">
+                        <a href="#" class="footer_link2">Nature</a>
+                    </li>
+                    <li class="footer_sublist">
+                        <a href="#" class="footer_link2">Recycle</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="scrollup">
+                <button onclick="topFunction()" id="scrollbutton" title="Go to top">
+                    <i class="fas fa-angle-up fa-1sx"></i>
+                </button>
+            </div>
+        </div>
+        <div class="footer_block2">
+            <form>
+                <label for="email" class="footer_label">Sign Up For Our Newsletter</label>
+                <input type="text" name="email" class="footer_email" placeholder="Enter your E-mail" required>
+                <button class="subscribe">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+        <div class="footer_copy">
+            <p>Copyright 2017 All Right Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
