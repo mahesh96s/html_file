@@ -1,5 +1,5 @@
   body{
-      font-family: sans-serif;
+      font-family: sans-serif;     
   }
   h2{
       float: left; 
@@ -30,7 +30,7 @@
       height: 16px;
       padding: 14px;
   }
-  .call_img1{
+  .call-image1{
       margin-top:0px;
       margin-left:351px;
       padding: 0px 0px 10px 0px;
@@ -44,25 +44,25 @@
       border-bottom: 3px solid rgb(226, 69, 53); 
         
   }  
-  .icon_link{ 
+  .icon-link{ 
       display:inline-flex;           
       text-decoration: none;
       color: white;
   }
-  .icon_link:hover{
+  .icon-link:hover{
     
       color:white;
       background-color: rgb(226, 69, 53);
       
   }  
-  .call_img2{      
+  .call-image2{      
       margin:-45px 7px 0px 736px;
       padding:0px 0px 10px 619px;                
       color:white;      
       text-decoration: rgb(226, 69, 53); 
       
   }
-  .company_name{
+  .company-name{
       float: left;
       color:rgb(226, 69, 53);
       padding-right: 50px;
@@ -74,7 +74,7 @@
       width: 25px;
       height: 20px;
   }
-  #menu_icon{
+  #menu-icon{
       padding-left:10px;
       line-height: 2;
   }
@@ -83,7 +83,7 @@
       margin-left:38px;
   }
 
-  .menu_img:hover{
+  .menu-image:hover{
       color:rgb(226, 69, 53);     
   }
   .page:hover{
@@ -137,20 +137,20 @@
       margin: -520px 0px 0px 1754px;
       background:rgb(231, 65, 48); 
   }
-  .first_list{
+  .first-list{
       display: block;
       list-style: none;
       margin: 0px 0px 31px 0px;
       padding: 0px 0px 54px 183px;     
   }
-  .cover_heading{
+  .cover-heading{
       font-size: 56px;
       color:white; 
       border-bottom: 2px solid rgb(226, 69, 53);
       font-weight: bold;
       margin: -32px 187px 0px 165px;
   }
-  .cover_para{   
+  .cover-para{   
       font-size: 17px;    
       color: white;
       text-align: center;
@@ -179,7 +179,7 @@
   .line3{
       border: 1px solid white;
       position: absolute;
-      margin: -399px 15px 0px 555px;
+      margin: -401px 15px 0px 555px;
       padding: 0px 0px 0px 230px;
   }
   .line4{
@@ -193,7 +193,7 @@
       margin:0px 0px 0px 0px;
       padding: 0px 0px 0px 0px; 
   }*/
-  .read_button{
+  .read-button{
       position: absolute;
       margin: -18px 0px 0px 269px;
       padding: 10px 35px 11px 36px;
@@ -202,19 +202,11 @@
       text-align: center; 
       z-index: 100;      
   }
-  .read_more{
+  .read-more{
       text-decoration: none;
       color:  aliceblue;
   }
-
-  .second_list{
-      display: block;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      
-  }
-  .donate_button{
+  .donate-button{
       border: 1px solid rgb(54, 54, 54);
       color: rgb(54, 54, 54);
       width: 144px;
@@ -224,11 +216,11 @@
       margin: 18px 65px 50px 42px;
       text-align: center;
   }
-  .donate_button:hover{
+  .donate-button:hover{
       border: 1px solid rgb(226, 69, 53);
       color: rgb(226, 69, 53);
   }
-  .cover_img{   
+  .cover-image{   
       filter: brightness(35%);
       position: relative;
       width: 1837px;
@@ -238,7 +230,7 @@
       vertical-align: middle;
                   
   }
-  .form_register{
+  .form-register{
       display: block;
       font-size: 17px;
       padding:14px 14px 0px 49px;
@@ -300,37 +292,45 @@
       margin: -170px 0px 20px 492px;
       font-size: 17px;
   }
-  .readme_link{
+  .readme-link{
       margin: -156px 0px 20px 734px;
       font-size: 17px;
       text-decoration: none;
       color:rgb(145, 151, 163);
   }
-  .readme_link:hover{
+  .readme-link:hover{
       color:rgb(226, 69, 53);
   }
   .second_figure{      
       width: 25px;
       height: 20px;
   }
-  .link_img{
+  .link-image{
       border: 2px solid rgb(229, 229, 229);
       width: 50px;
       height: 50px;
       margin: 25px 29px 10px 23px;
   }
-  .block_para{
+  .link-image:hover #block-icon{
+      background-color: rgb(226, 69, 53);
+      color:white;
+  }
+  .link-image:hover #block-icon1{
+      background-color: rgb(226, 69, 53);
+      color:white;
+  }
+  .block-para{
       color:rgb(145, 151, 163);
       line-height: 1.6;
   }  
-  .block_elements{
+  .block-elements{
       margin: -73px 32px 0px 109px;
   }  
-  .menu_link{
+  .menu-link{
       text-decoration: none;
       color:black;
   }
-  .menu_link:hover{
+  .menu-link:hover{
       color:rgb(226, 69, 53);
   }
   .block1{
@@ -349,15 +349,15 @@
       text-align:left;     
             
   }
-  #block_icon{
+  #block-icon{
       color:rgb(226, 69, 53);
       padding: 15px 18px 19px 15px;
   }
-  #block_icon1{
+  #block-icon1{
     color: rgb(226, 69, 53);
     padding: 15px 26px 19px 15px;
   }
-  .block_link{
+  .block-link{
       display:inline-flex;
       width: 359px;
       height: 163px;
@@ -365,18 +365,10 @@
       text-decoration: none ;
       color: black;
   }
-  .block_link:hover{
+  .block-link:hover{
       border:1px solid rgb(226, 69, 53);     
-  } 
-  .link_img:hover #block_icon{
-    background-color: rgb(226, 69, 53);
-    color:white;
-  }
-  .link_img:hover #block_icon1{
-    background-color: rgb(226, 69, 53);
-    color:white;
-  }
-  .services_links{
+  }   
+  .services-links{
       width:100px;
       height:100px;
       position:absolute;
@@ -395,13 +387,13 @@
       background-color: rgb(245, 245, 245);
       padding: 11px 0px 98px 0px;
   }
-  .aboutus_para{
+  .aboutus-para{
       font-size: 16px;
       color:rgb(145, 151, 163);
       padding: 55px 544px 0px 592px;
       text-align: center;
   }
-  .block_para1{
+  .block-para1{
       color:rgb(145, 151, 163);
       margin-top: -25px;
   }
@@ -433,7 +425,7 @@
       font-size: 20px;
       margin: 17px 112px 73px 20px;
   }  
-  .cause_block{
+  .cause-block{
       border: 1px solid rgb(229, 229, 229);
       float:left;
       width:361px;
@@ -443,23 +435,23 @@
       padding: 2px 4px 334px 0px;
       
   }
-  .main_cause{
+  .main-cause{
       margin: -40px 10px 10px 283px;
       padding: 2px 79px 438px 0px;
   }
-  .aboutus_para1{
+  .aboutus-para1{
       font-size: 16px;
       color:rgb(145, 151, 163);
       padding: 55px 539px 0px 589px;
       text-align: center;
   }
-  .cause_content{
+  .cause-content{
       padding: 0px 0px 0px 32px;
   }
-  .cause_para{      
+  .cause-para{      
       color:rgb(145, 151, 163);      
   }
-  .donate_slide{
+  .donate-slide{
       
       margin: 0px 41px 0px 39px;
       background-color:rgb(229, 229, 229);
@@ -554,7 +546,7 @@
       font-size: 25px;
       font-weight: bolder;
   }
-  .heart_para{
+  .heart-para{
     font-size: 16px;
   }
   .video{  
@@ -570,23 +562,23 @@
       margin: -247px 2px 2px 575px;
   }
   
-  .block3_text{
+  .block3-text{
       color:white;
       margin: -379px 333px 2px 944px;
       line-height: 1.5;
   }
-  .menu_link1{
+  .menu-link1{
       text-decoration: none;
       color:white;
   }
-  .menu_link1:hover{
+  .menu-link1:hover{
       color:rgb(226, 69, 53);
   }  
   .ourgallery{
       font-size: 20px;
       margin: 17px 112px 8px 0px;
   }
-  .gallery_link:hover{
+  .gallery-link:hover{
       filter: brightness(50%);      
   }
   .gallery1{
@@ -619,7 +611,7 @@
       height: 257px;
       margin: -261px 0px 73px 1257px;
   }
-  .image_icon{
+  .image-icon{
       color:white;
   }
   .middle1{      
@@ -670,27 +662,27 @@
       text-align: center;
       
   }
-  .gallery_link:hover .middle1{
+  .gallery-link:hover .middle1{
       opacity: 1;      
       color: white;      
   }
-  .gallery_link:hover .middle2{
+  .gallery-link:hover .middle2{
       opacity: 1;
       color: white;
   }
-  .gallery_link:hover .middle3{
+  .gallery-link:hover .middle3{
       opacity: 1;
       color: white;
   }
-  .gallery_link:hover .middle4{
+  .gallery-link:hover .middle4{
       opacity: 1;
       color: white;
   }
-  .gallery_link:hover .middle5{
+  .gallery-link:hover .middle5{
       opacity: 1;
       color: white;
   }
-  .gallery_link:hover .middle6{
+  .gallery-link:hover .middle6{
       opacity: 1;
       color: white;
   }
@@ -703,55 +695,55 @@
       padding: 17px 112px 569px 0px;
       margin: -72px -3px 0px -7px;
   }
-  .volunteer_block{      
+  .volunteer-block{      
       float:left;
       width: 261px;
       height: 315px;                   
       margin: 84px 10px 10px 7px;      
       background-color: white;      
   }
-  .volunteer_block:hover{
-      box-shadow: 1px 3px 2px rgb(233, 233, 233); 
+  .volunteer-block:hover{
+      box-shadow: 1px 1px 20px rgb(233, 233, 233); 
   }
-  .main_vol{
+  .main-vol{
      
       margin: 28px 10px 10px 331px; 
   }
-  .vol_icon{
+  .vol-icon{
       padding: 16px 0px 66px 46px;
   }
-  .vol_img{
+  .vol-image{
       width: 201px;
       height: 203px;
       margin: -78px 10px 10px 29px; 
   }
-  .vol_name{   
+  .vol-name{   
       text-align: center;
       font-size: 16px;
   }
-  .vol_name1{
+  .vol-name1{
       text-align: center;
       font-size: 16px;
       color: rgb(168, 160, 160);                  
   }
-  .hr_volunteer{
+  .hr-volunteer{
       margin: 26px 26px 10px 29px;
       border: 1px solid rgb(229, 229, 229);
   }
   #facebook1,#google1,#twitter1,#linkedin1{
       padding: 13px 2px 0px 16px
   }
-  .icon_link1{
+  .icon-link1{
       text-decoration: none;
       color: rgb(168, 160, 160);
   }
-  .icon_link1:hover{
+  .icon-link1:hover{
       color:rgb(226, 69, 53);
   }   
   ol{
       list-style: none;
   }
-  .footer_block1{
+  .footer-block1{
       background: rgb(47,47,47);
       margin: -20px 0px 0px 0px;
       color:white;
@@ -759,23 +751,23 @@
       font-size: 16px;
       
   }
-  .footer_list1{
+  .footer-list1{
       margin: 48px 1231px 0px 273px;
   }
-  .footer_list2{
+  .footer-list2{
       margin: -280px 898px 0px 592px; 
   }
-  .footer_list3{
+  .footer-list3{
       margin: -236px 593px 0px 923px
   }
-  .footer_list4{
+  .footer-list4{
       margin: -238px 278px 0px 1257px;
       padding: 0px 0px 0px 0px;        
   }
-  .footer_line{      
+  .footer-line{      
       border:1px solid rgb(67, 68, 69);     
   }
-  .footer_sublist{
+  .footer-sublist{
       border: 1px solid white;
       display : inline-flex;
       margin: 6px 0px 4px 8px;
@@ -785,15 +777,15 @@
       font-size: 17px;
       
   }
-  .footer_block2{
+  .footer-block2{
       background:rgb(193, 62, 47); 
       padding: 32px;
   }
-  .footer_email{
+  .footer-email{
       margin:-42px 0px 0px 840px;
       padding: 7px 129px 11px 19px;
   }
-  .footer_label{
+  .footer-label{
       font-size:38px;
       color:white;
       margin:0px 0px 0px 336px; 
@@ -808,7 +800,7 @@
       font-size: 21px;
       margin: -44px 42px 0px 1243px;
   }
-  .footer_copy
+  .footer-copy
   {
       background:  rgb(13,13,13);
       color:white;
@@ -816,19 +808,19 @@
       margin: -16px 0px 0px 0px;
       text-align: center;
   }
-  .footer_link1{
+  .footer-link1{
       line-height:1.5 ;
       text-decoration: none;
       color:white;
   }
-  .footer_link2{    
+  .footer-link2{    
       text-decoration: none;
       color:white;
   }
-  .footer_link1:hover{
+  .footer-link1:hover{
       color:rgb(231, 65, 52); 
   } 
-  .footer_sublist:hover{
+  .footer-sublist:hover{
       border:none;
       background-color:rgb(231, 65, 52);
       color:white;      
@@ -858,7 +850,7 @@
       margin: -6px 14px 7px 833px; 
       z-index: 2;
   }
-  .hr_line{
+  .hr-line{
       position:relative;
       width:136px;
       margin:36px 0px 0px 786px;      
@@ -875,7 +867,7 @@
       margin: -28px 14px 7px 833px; 
       z-index: 2;
   }
-  .hr_line1{
+  .hr-line1{
       position:relative;
       width:136px;
       margin:-9px 0px 0px 786px;      
@@ -892,7 +884,7 @@
       margin: -28px 14px 7px 833px; 
       z-index: 2;
   }
-  .hr_line2{
+  .hr-line2{
       position:relative;
       width:136px;
       margin:-7px 0px 0px 786px;      
@@ -909,7 +901,7 @@
       margin: -6px 14px 7px 833px; 
       z-index: 2;
   }
-  .hr_line3{
+  .hr-line3{
       position:relative;
       width:136px;
       margin:36px 0px 0px 786px;      
