@@ -1,14 +1,13 @@
 <html>
 <head>
     <title>Save life</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css"> 
     <script>               
         window.onscroll = function () { scrollFunction() };
         function scrollFunction() {
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
                 document.getElementById("scrollbutton").style.display = "block";
             } else {
                 document.getElementById("scrollbutton").style.display = "none";
@@ -567,6 +566,10 @@
                     </a>
                 </span>
             </div>
+        </div>
+        <div class="volunteer-slide">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span>   
         </div>
     </div>
     <footer>
