@@ -913,8 +913,10 @@ u{
     border: 1px solid rgb(226, 69, 53);
     background-color: white;
     border-radius: 50%;
-    display: inline-block;
-    
+    display: inline-block;    
+}
+#dot1{
+    visibility: hidden;
 }  
 .active, .dot:hover {
   background-color: rgb(226, 69, 53); 
