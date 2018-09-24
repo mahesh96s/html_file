@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <script>
+      function pattern(r) {              
+        var  i,j,k=1,l=2;		
+          for(i=0;i<r;i++)
+          {
+            for(j=r-1;j>i;j--)
+            {
+              document.write("&nbsp&nbsp");
+            }
+            for(j=0;j<i+1;j++)
+            {
+              document.write(k);
+              k+=1;
+            }
+            k=i+2;            
+            for(j=0;j<i;j++)
+            {
+              document.write(l); 
+              l-=1;             
+            }
+            l=l+2;                           
+            document.write("<br>");            
+          }        
+      }
+      pattern(6);
+    </script>
+  </body>
+</html>

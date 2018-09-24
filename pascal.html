@@ -1,0 +1,24 @@
+<html>
+  <body>
+    <script>
+      function pascaltriangle(r) {              
+        var  i,j,num=1,k;		
+          for(i=0;i<r;i++)
+          {
+            for(j=r;j>i;j--)
+            {
+              document.write("&nbsp");
+            }
+              num=1;
+            for(k=0;k<=i;k++)
+            {
+              document.write(num+"&nbsp");
+                      num=num*((i-k)/(k+1));
+            }
+            document.writeln("<br>");
+          }        
+      }
+     pascaltriangle(6);
+    </script>
+  </body>
+</html>
