@@ -1,0 +1,52 @@
+<html>
+  <body>
+    <script>      
+      function identity(x){
+        return x;
+      }     
+      document.write(identity(3)+"<br>"); 
+        function add(x,y)
+        {
+          return x+y;
+        }
+        function mul(x,y)
+        {
+          return x*y;
+        }   
+      document.write("addition of two numbers:  "+add(3,4)+"<br>");
+      document.write("multiplication of two numbers:  "+mul(3,4)+"<br>");
+        function identityf(x) {
+          return function idf(){
+            return x;
+          };
+        }
+      idf = identityf(3);
+      document.write(idf()+"<br>");
+        function addf(x) {
+          return function(y) {
+            return x + y;
+          };
+        }
+      document.write("add from two invocations:  "+addf(3)(4)+"<br>");
+        function applyf(binary){        
+          return function(x){
+            return function(y){
+              return binary(x,y);
+            };
+          };               
+        }      
+      document.write("by using callable add two invocations:  "+applyf(add)+"<br>");
+      document.write("by using callable multiple  two invocations:  "+applyf(mul)(5)(6)+"<br>");
+        function curry(binary, x) {
+          return function(y) {
+            return binary(x, y)
+          }
+        }
+      add3 = curry(add, 3);
+      document.write(add3+"<br>");
+      document.write(add3(4)+"<br>");
+      document.write(curry(mul, 3)(4)+"<br>");
+
+    </script>
+  </body>
+</html>
