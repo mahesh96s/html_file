@@ -1,8 +1,8 @@
 <html>
   <body>
     <script>
-      function pascaltriangle(r) {              
-        var  i,j,num=1,k;		
+      function pascaltriangle(r){              
+        var  i,j,num=1,k;
           for(i=0;i<r;i++)
           {
             for(j=r;j>i;j--)
@@ -14,10 +14,10 @@
             {
               document.write(num+" ");
               document.write("&nbsp");
-                      num=num*((i-k)/(k+1));
+              num=num*((i-k)/(k+1));
             }
             document.writeln("<br>");
-          }        
+          }
       }
      pascaltriangle(prompt("enter the lines: "));
     </script>
