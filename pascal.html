@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <script>
+      function pascaltriangle(r){              
+        var  i,j,num=1,k;
+          for(i=0;i<r;i++)
+          {
+            for(j=r;j>i;j--)
+            {
+              document.write("&nbsp&nbsp");
+            }
+              num=1;
+            for(k=0;k<=i;k++)
+            {
+              document.write(num+" ");
+              document.write("&nbsp");
+              num=num*((i-k)/(k+1));
+            }
+            document.writeln("<br>");
+          }
+      }
+     pascaltriangle(prompt("enter the lines: "));
+    </script>
+  </body>
+</html>

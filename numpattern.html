@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <script>
+      function pattern(r) {              
+        var  i,j;		
+        for(i=1;i<=r;i++)
+          {
+          for(j=1;j<=r-i;j++)
+            document.write("&nbsp&nbsp");
+          for(j=i;j<=i+i-1;j++)
+            document.write(j%10);
+          for(j=j-2;j>=i;j--)
+            document.write(j%10);
+            document.write("<br>");
+          }
+      }
+      pattern(prompt("enter the lines: "));
+    </script>
+  </body>
+</html>
