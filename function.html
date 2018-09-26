@@ -1,58 +1,107 @@
 <html>
   <body>
     <script>      
-      function identity(x){
+      function identity(x) {
         return x;
       }     
       document.write(identity(3)+"<br>");
+
       /*-------------------------------------*/ 
-        function add(x,y)
-        {
+
+        function add(x,y) {
           return x+y;
         }
-        function mul(x,y)
-        {
+        function mul(x,y) {
           return x*y;
         }   
       document.write("addition of two numbers:  "+add(3,4)+"<br>");
       document.write("multiplication of two numbers:  "+mul(3,4)+"<br>");
+
       /*-------------------------------------*/
+
         function identityf(x) {
-          return function idf(){
+          return function idf() {
             return x;
           };
         }
       idf = identityf(3);
       document.write(idf()+"<br>");
+
       /*-------------------------------------*/
+
         function addf(x) {
           return function(y) {
             return x + y;
           };
         }
       document.write("add from two invocations:  "+addf(3)(4)+"<br>");
+      
       /*-------------------------------------*/
-        function applyf(binary){        
-          return function(x){
-            return function(y){
+
+        function applyf(binary) {        
+          return function(x) {
+            return function(y) {
               return binary(x,y);
             };
           };               
         }
-      addf =  applyf(add);      
+      addf =  applyf(add);           
       document.write("by using callable add two invocations:  "+addf(3)(4)+"<br>");
-      document.write("by using callable multiple  two invocations:  "+applyf(mul)(5)(6)+"<br>");
+      document.write("by using callable multiple two invocations:  "+applyf(mul)(5)(6)+"<br>");
+
       /*-------------------------------------*/
+
         function curry(binary,x) {
-          return function(y){
+          return function(y) {
             return binary(x,y);
           };
         }
       add3 = curry(add,3);
-      document.write(add3+"<br>");
-      document.write(add3(4)+"<br>");
-      document.write(curry(mul, 3)(4)+"<br>");
+      document.write("function that can supply a second argument:   "+add3(4)+"<br>");
+      document.write("function that can supply a second argument:   "+curry(mul, 3)(4)+"<br>");
 
+      /*-------------------------------------*/
+
+      inc = curry(add,1);
+      inc1 = curry(add,1);   
+      inc2 = curry(add,1);   
+      document.write("inc function 1:  "+inc(5)+"<br>");
+      document.write("inc function 1:  "+inc(inc(5))+"<br>");            
+      document.write("inc function 2:  "+inc1(6)+"<br>");
+      document.write("inc function 2:  "+inc1(inc1(6))+"<br>");
+      document.write("inc function 3:  "+inc2(7)+"<br>");
+      document.write("inc function 3:  "+inc2(inc2(7))+"<br>");
+
+      /*-------------------------------------*/
+
+        function methodize(func) {
+          return function(x) {
+              return func(this, x); 
+          };
+        }
+      Number.prototype.add = methodize(add);
+      document.write("methodize:   "+(3).add(4)+"<br>");
+
+      /*-------------------------------------*/
+
+        function twice(binary) {
+            return function(x) {
+              return binary(x,x);
+            };
+          }
+      var double = twice(add);
+      document.write("binary function twice:  "+double(11)+"<br>");
+      var square = twice(mul);
+      document.write("binary function twice:  "+square(11)+"<br>");
+
+      /*-------------------------------------*/
+
+        function composeu(func1,func2) {
+            return function(x) {
+              return func2(func1(x));
+            };
+          }      
+      document.write("compose:  "+composeu(double,square)(3)+"<br>");
     </script>
   </body>
 </html>
