@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Details</title>
+    <style>
+      #table{
+        border-color:grey;        
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./add.js"></script> 
+    <script type="text/javascript" src="./sort.js"></script>
+  </head>
+  <body>
+    <div>
+      <form>
+        <span>Name  :  </span><input type="text" id="name" placeholder="name" ><br>
+        <span>Age  :  </span><input type="text" id="age" placeholder="age" ><br>
+        <input type="button" class="add" value="Add">
+      </form>
+    </div>    
+    <div>
+      <table id="mytable" border="1" >
+        <thead>
+          <tr>
+            <th>NAMES
+              <form>
+                <select id="name_order"  onclick="sort_name();">
+                    <option value="asc">Ascending Order</option>
+                    <option value="desc">Descending Order</option>                      
+                </select>
+              </form>                  
+            </th>
+            <th>AGE
+                <form>
+                    <select id="age_order"  onclick="sort_age();">
+                        <option  value="asc">Ascending Order</option>
+                        <option  value="desc">Descending Order</option>                      
+                    </select>
+                </form>        
+            </th>
+          </tr>  
+        </thead>
+        <tbody id=table1>
+
+        </tbody>
+      </table>
+     </div>  
+  </body>
+</html>
