@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "luffy",
+    "password": "maheshluffy",
+    "database": "ecommerce",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "luffy",
+    "password": "maheshluffy",
+    "database": "ecommerce",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "luffy",
+    "password": "maheshluffy",
+    "database": "ecommerce",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

@@ -1,0 +1,41 @@
+html
+  head
+    title customer details
+  append scripts    
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    script(src="./public/javascripts/insert.js")
+  
+  body
+    form(action="/contact" method="post") 
+      div
+        label Name
+        input#name(type='text', name='customername', placeholder='name')
+      div  
+        label Address
+        input#address(type='text', name='customeraddress', placeholder='address')
+      div
+        label Phone Number
+        input#number(type='text', name='phoneno', placeholder='Number')
+      div
+        label EmailID
+        input#email(type='text', name='emailid', placeholder='email address')
+      div
+        input#insert(type='button', value='insert')      
+div
+  table#mytable(border='1')
+    thead
+      tr
+        th
+          |
+        th
+          | CUSTOMER NAMES          
+        th
+          | CUSTOMER ADDRESS 
+        th
+          | PHONENO     
+        th
+          | EMAILID        
+    tbody#table1
+  form
+   input.edit(type='button', value='edit')
+   input.delete(type='button', value='delete')
